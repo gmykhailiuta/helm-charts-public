@@ -84,7 +84,7 @@ jobs:
             cd ${chart}
             if [ -f Chart.yaml ]; then
               echo "Incrementing the version"
-              ./${{workspace_dir}}/luminartech/helm-charts-public/scripts/incver.py Chart.yaml
+              ./${workspace_dir}/luminartech/helm-charts-public/scripts/incver.py Chart.yaml
               git add Chart.yaml
               git commit -m "Release of ${chart}"
               git push origin
