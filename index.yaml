@@ -26,6 +26,32 @@ entries:
     urls:
     - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-aws-ec2-0.31.0-6/crossplane-aws-ec2-0.31.0-6.tgz
     version: 0.31.0-6
+  crossplane-aws-ram:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-02-15T08:29:58.479074789Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.4
+    description: A Helm chart for crossplane AWS RAM resources
+    digest: 96babd0dad160ad8239f6824e7110149e3431957be4e3651d9f7d8766af18655
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-ram
+    sources:
+    - https://github.com/luminartech/helm-charts-public
+    urls:
+    - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-aws-ram-0.31.0-3/crossplane-aws-ram-0.31.0-3.tgz
+    version: 0.31.0-3
   crossplane-kubernetes:
   - annotations:
       category: Infrastructure
@@ -52,4 +78,4 @@ entries:
     urls:
     - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-kubernetes-0.4.0-7/crossplane-kubernetes-0.4.0-7.tgz
     version: 0.4.0-7
-generated: "2023-02-15T08:25:20.252890871Z"
+generated: "2023-02-15T08:29:58.479084489Z"
