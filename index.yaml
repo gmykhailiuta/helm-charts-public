@@ -26,6 +26,32 @@ entries:
     urls:
     - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-aws-ec2-0.31.0-6/crossplane-aws-ec2-0.31.0-6.tgz
     version: 0.31.0-6
+  crossplane-aws-efs:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-02-15T08:31:45.382612966Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.4
+    description: A Helm chart for crossplane AWS EFS resources
+    digest: 3a28fa818df084bb70c94f9f2176170fd7d7538c0ca384d5ae4464419c33d3c4
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-efs
+    sources:
+    - https://github.com/luminartech/helm-charts-public
+    urls:
+    - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-aws-efs-0.31.0-4/crossplane-aws-efs-0.31.0-4.tgz
+    version: 0.31.0-4
   crossplane-aws-ram:
   - annotations:
       category: Infrastructure
@@ -52,6 +78,32 @@ entries:
     urls:
     - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-aws-ram-0.31.0-3/crossplane-aws-ram-0.31.0-3.tgz
     version: 0.31.0-3
+  crossplane-aws-s3:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.31.0
+    created: "2023-02-15T08:31:45.507939072Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.4
+    description: A Helm chart for crossplane AWS S3 resources
+    digest: cb3904ce96516d3088a7c999c73f589479e1bc780b6685bc30cb9e4a27eac1a5
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-aws-s3
+    sources:
+    - https://github.com/luminartech/helm-charts-public/charts/crossplane-aws-s3
+    urls:
+    - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-aws-s3-0.31.0-5/crossplane-aws-s3-0.31.0-5.tgz
+    version: 0.31.0-5
   crossplane-kubernetes:
   - annotations:
       category: Infrastructure
@@ -78,4 +130,4 @@ entries:
     urls:
     - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-kubernetes-0.4.0-7/crossplane-kubernetes-0.4.0-7.tgz
     version: 0.4.0-7
-generated: "2023-02-15T08:29:58.479084489Z"
+generated: "2023-02-15T08:31:45.508513677Z"
