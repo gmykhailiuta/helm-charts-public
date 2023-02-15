@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  crossplane-kubernetes:
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2023-02-15T08:14:58.527766248Z"
+    dependencies:
+    - name: common-gitops
+      repository: https://helm-repo-public.luminarinfra.com/
+      version: 1.0.4
+    description: A Helm chart for crossplane Kubernetes resources
+    digest: abd6d4f38ce640f23d4524143cd805458e70d7d929ec05d093ad52b82c4b1ee1
+    home: https://helm-repo-public.luminarinfra.com
+    maintainers:
+    - email: sre@luminartech.com
+      name: SRE
+    - email: satish.gaikwad@luminartech.com
+      name: Satish Gaikwad
+    - email: hennadii.mykhailiuta@luminartech.com
+      name: Hennadii Mykhailiuta
+    name: crossplane-kubernetes
+    sources:
+    - https://github.com/luminartech/helm-charts-public/
+    urls:
+    - https://github.com/gmykhailiuta/helm-charts-public/releases/download/crossplane-kubernetes-0.4.0-7/crossplane-kubernetes-0.4.0-7.tgz
+    version: 0.4.0-7
+generated: "2023-02-15T08:14:58.527770448Z"
